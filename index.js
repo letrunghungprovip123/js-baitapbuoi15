@@ -60,7 +60,7 @@ document.querySelector("#btn-1").onclick = () => {
 
 function soTienKw(a) {
   let tongTien = 0;
-  if (a <= 50) {
+  if (a > 0 && a <= 50) {
     tongTien = a * 500;
   }
   if (a > 50 && a <= 100) {
